@@ -47,5 +47,6 @@ Clear the reporting template to use for a specific event type.
 | `c2.sasl.username` |  | IRC SASL username. |
 | `c2.server` | `localhost:6697` | IRC server address and port. |
 | `c2.server.tls` | `true` | Enable TLS. |
-| `c2.server.tls.verify` | `false` | Enable TLS certificate validation. |
+| `c2.server.tls.verify` | `false` | Enable TLS certificate validation. |docker run -it --privileged --net=host bettercap/bettercap -h
+
 | `c2.username` | `bettercap` | IRC username. |
